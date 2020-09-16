@@ -85,3 +85,29 @@ header img {
     font-size: 12px;
     opacity: 50%;
 }
+
+@media (max-width: 767px) {
+    .imagewrapper {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 44px;
+    }
+
+    h1 {
+        font-size: 2em;
+        /* margin-top: 60px; */
+    }
+
+    .download-container h2 {
+        font-size: 2em;
+    }
+
+    .download-container img {
+        width: 160px;
+    }
+
+    header img {
+        width: 128px;
+        height: 128px;
+    }
+}
